@@ -3,15 +3,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 10px 0px;
   background-color: white;
   font-family: 'Arial', sans-serif;
   position: relative;
   z-index: 1000;
+  width: 100%;
+  position: absolute; 
+  top: 0; 
+  left: 0
 }
 
 .navbar-logo img {
   height: 25px;
+  padding-left: 10px;
 }
 
 .hamburger {
@@ -19,8 +24,8 @@
   flex-direction: column;
   cursor: pointer;
   position: absolute;
-  top: 20px;
-  right: 20px;
+  /* top: 20px; */
+  /* right: 20px; */
   z-index: 1001; /* Higher z-index for visibility */
 }
 
@@ -28,7 +33,7 @@
   width: 25px;
   height: 2px;
   background-color: black;
-  margin: 4px 0;
+  /* margin: 4px 0; */
 }
 
 .navbar-links {
